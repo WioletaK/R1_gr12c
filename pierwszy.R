@@ -15,3 +15,5 @@ weatherJson<-fromJSON(weatherText,flatten=TRUE)
 #View(weatherJson)
 weatherDF<-as.data.frame(weatherJson)
 #View(weatherDF)
+
+print(weatherDF)
